@@ -1,0 +1,16 @@
+.HotAccessMenu{
+    display: flex;
+    justify-content: center;
+
+}
+.HotAccessLink{
+    text-decoration: None;
+    color: rgb(94,94,94);
+    margin: 1vmax;
+}
+.HotAccessLink:hover{
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+
+}    

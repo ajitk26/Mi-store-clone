@@ -4,8 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
+
 const Slider = ({start}) => {
   return (
+    
+  <div className='slider'>
     <Carousel fade>
        
 
@@ -20,6 +23,7 @@ const Slider = ({start}) => {
        ))}
        
       </Carousel>
+      </div>
     )
 }
 

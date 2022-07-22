@@ -28,6 +28,7 @@ const Navbar = () => {
           {searchIcon}
 
         </div>
+
     </div>
 
   

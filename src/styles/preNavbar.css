@@ -3,6 +3,9 @@
     display: grid;
     grid-template-columns: 5fr 2fr;
     color: white;
+    margin-bottom: -0.8vmax;
+    margin-top: auto;
+
 }
 
 .preNav > div{
@@ -12,8 +15,9 @@
 }
 .preNav > div >span{
     color: rgba(180,180,180,0.655);
-    font-size: 0.8vmax;
+    font-size: 0.3vmax;
     font-weight: 100;
+    align-items: center;
 }
 .preNav > div > a{
 

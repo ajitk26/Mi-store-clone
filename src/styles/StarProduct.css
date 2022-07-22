@@ -1,0 +1,27 @@
+.starProduct{
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   margin:0vmax;  
+   position: relative;
+}
+
+.starProduct>div:last-child{
+    flex-wrap: wrap;
+    width: 37%;
+    position: relative;
+}
+
+.starProduct img{
+    transition: all 0.5s;
+}
+
+.starProduct img:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+}
+.secondDiv{
+    margin: 0.4vmax;
+}
+.thirdDiv{
+    margin: 0.2vmax;
+}
